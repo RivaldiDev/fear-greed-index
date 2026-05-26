@@ -13,7 +13,6 @@
 
 [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RivaldiDev/fear-greed-index)
 
-
 [Overview](#overview) · [Features](#features) · [Tech Stack](#tech-stack) · [API](#api) · [Getting Started](#getting-started) · [Architecture](#architecture)
 
 </div>
@@ -25,8 +24,6 @@
 Bitcoin market sentiment tracker with Fear & Greed Index visualization and historical data.
 
 Built with **Next.js 16** (App Router, TypeScript), **shadcn/ui** component library, **Tailwind CSS**, and **Framer Motion** for animations. All data is fetched client-side from free public APIs — no API keys required, no backend server.
-
-This project was developed using AI Agent tools (**Claude Code**, **Hermes Agent**) as part of the **Xiaomi MiMo 100T Token Creator** program.
 
 ## Features
 
@@ -82,9 +79,9 @@ src/
 ├── app/
 │   ├── layout.tsx        # Root layout with metadata
 │   ├── page.tsx          # Main dashboard page (client component)
-│   └── globals.css       # Tailwind CSS globals
+│   └── globals.css       # Tailwind CSS globals with dark theme
 ├── components/
-│   └── ui/               # shadcn/ui components (Card, Badge, etc.)
+│   └── ui/               # shadcn/ui components (Card, Button, Badge)
 └── lib/
     └── utils.ts          # Utility functions (cn helper)
 ```
@@ -101,8 +98,6 @@ npx vercel --prod
 ---
 
 <div align="center">
-
-**Built with AI Agent tools** · Xiaomi MiMo 100T Token Creator Program
 
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
